@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<h1>Appontment Information</h1>
+<form action="#" th:action="@{/addCity}" th:object="${city}" method="post">
+
+<ul>
+    <li><label>Enter a city: </label>
+
+        <input type="text" th:field="*{city}" /><br/>
+        <button type="submit"></button>
+    </li>
+</ul>
+
+
+
+
+</form>
+
+
+
+</html>
