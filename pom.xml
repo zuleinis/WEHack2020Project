@@ -2,11 +2,11 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId><!--INSERT GROUP ID HERE-->></groupId>
-  <artifactId><!--ARTIFACT IS HERE-->></artifactId>
+  <groupId>org.apache.maven</groupId>
+  <artifactId>Toyota-Appt-Finder</artifactId>
   <packaging>war</packaging>
   <version>1</version>
-  <name><!--NAME HERE--> Maven Webapp</name>
+  <name>Toyota-Appt-Finder Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -52,7 +52,7 @@
   </dependencies>
 
   <build>
-    <finalName><!--INSERT PROJECT NAME HERE-->></finalName>
+    <finalName>Toyota-Appt-Finder</finalName>
     <plugins>
       <plugin>
         <groupId>com.google.cloud.tools</groupId>
