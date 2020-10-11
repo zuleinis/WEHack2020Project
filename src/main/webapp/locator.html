@@ -7,15 +7,21 @@
         <link rel="stylesheet" href="css/backgroundStyle.css">
     </head>
     <body class="locatorPage">
-        <h3>Finds Available Services near you</h3>
-        <h1>Locator</h1>
+		<div class="top">
+			<a href="main.html"><img class="logo" src="images/toyota-logo-2019-3700x1200.png" width="231" height=auto/></a>
+        </div>
+		
+		<div align="center">
+			<h3>Finds Available Services Near You.</h3>
+			<h1>Locator</h1>
+		</div>
 
         <div id="map"></div>
         <script>
             // Initialize and add the map
             function initMap() {
             // The location of Uluru
-            var uluru = {lat: -25.344, lng: 131.036};
+            var uluru = {lat: 39.103, lng: 84.512};
             // The map, centered at Uluru
             var map = new google.maps.Map(
                 document.getElementById('map'), {zoom: 4, center: uluru});

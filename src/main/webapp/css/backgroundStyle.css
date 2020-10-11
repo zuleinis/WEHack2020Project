@@ -1,15 +1,17 @@
 body.main {
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(235,10,30,1) 100%);
+    color: white; 
 }
 
 body.locatorPage {
     background-color: #1b1b1b;
+	color: white; 
 }
 
 h1 { 
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
-    font-size: 24px; 
+    font-size: 50px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
@@ -18,30 +20,57 @@ h1 {
 
 h3 { 
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
-    font-size: 14px; 
+    font-size: 20px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
     line-height: 15.4px; 
 }
 
+h4 { 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+    font-size: 15px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 10.1px; 
+}
+
 button.buttonBox{
     margin:auto;
     border: #2B2B2B;
     width:20vw;
-    background-color:#868686;	
 }
 
 .button01 {
-	color: #1A1A1A;
-		
-	background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #1F1F1F;
 	border: 1px solid;
 }
 
 .button01:hover {
-    background-color: #1F1F1F;
-    color: #FFFFFF;
+    color: #1A1A1A;
+	background-color: #FFFFFF;
+}
+
+img.imgAlign{
+    width:auto;
+    height:auto;
+    max-width:40%;
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.logo{
+	width: 231px;
+	height: auto;
+}
+
+div.top{
+	align: center;
+	background-color: #FFFFFF;
 }
 
 #map {
@@ -49,3 +78,4 @@ button.buttonBox{
    height: 400px;
    background-color: grey;
  }
+ 
